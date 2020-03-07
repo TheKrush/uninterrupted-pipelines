@@ -26,13 +26,10 @@ public class UninterruptedPipelines {
                         if (!e.isIdle() || idleMillis < 15000) {
                             return false;
                         }
-
                     }
                 }
             }
             return true;
         }
-
     }
-
 }
