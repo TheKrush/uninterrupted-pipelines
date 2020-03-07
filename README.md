@@ -7,3 +7,5 @@ By default, `safeExit`/`safeRestart` will allow Jenkins to interrupt
 asynchronous jobs — pipelines — because in most cases, they can be resumed once
 the Jenkins master is back up. However, restarting a master-only Jenkins install
 results in interrupted jobs that are frequently stuck upon restart.
+
+>_use this to create hpi `mvn -D maven.javadoc.skip=true install`_
